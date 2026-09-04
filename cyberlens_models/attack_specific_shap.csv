@@ -1,0 +1,61 @@
+Class,Rank,Feature,Mean |SHAP Value|
+Botnet,1,Destination Port,1.993587851524353
+Botnet,2,Init_Win_bytes_forward,0.8330917358398438
+Botnet,3,Bwd Packet Length Mean,0.47621139883995056
+Botnet,4,Init_Win_bytes_backward,0.3532610237598419
+Botnet,5,min_seg_size_forward,0.2798709571361542
+Botnet,6,Bwd Packet Length Max,0.2025933414697647
+Botnet,7,Bwd IAT Std,0.11291064321994781
+Botnet,8,Flow IAT Min,0.08302151411771774
+Botnet,9,Fwd Header Length,0.0750470906496048
+Botnet,10,Avg Bwd Segment Size,0.07414951175451279
+Brute Force,1,Destination Port,2.5425832271575928
+Brute Force,2,min_seg_size_forward,0.506330668926239
+Brute Force,3,Bwd Header Length,0.17572827637195587
+Brute Force,4,Bwd Packet Length Min,0.15823964774608612
+Brute Force,5,Fwd IAT Mean,0.15353500843048096
+Brute Force,6,Bwd IAT Mean,0.1428196281194687
+Brute Force,7,Init_Win_bytes_backward,0.11975610256195068
+Brute Force,8,Fwd IAT Min,0.11924225091934204
+Brute Force,9,Fwd PSH Flags,0.10843556374311447
+Brute Force,10,Init_Win_bytes_forward,0.10516243427991867
+DDoS,1,act_data_pkt_fwd,0.881619393825531
+DDoS,2,Destination Port,0.7438818216323853
+DDoS,3,Fwd Packet Length Mean,0.6185870170593262
+DDoS,4,Fwd Packet Length Max,0.4526386260986328
+DDoS,5,Bwd Packet Length Std,0.44817599654197693
+DDoS,6,Total Backward Packets,0.2925267815589905
+DDoS,7,min_seg_size_forward,0.28612247109413147
+DDoS,8,Total Length of Fwd Packets,0.2509317994117737
+DDoS,9,Init_Win_bytes_forward,0.1749362051486969
+DDoS,10,Avg Fwd Segment Size,0.17356456816196442
+Normal,1,Init_Win_bytes_forward,1.6823272705078125
+Normal,2,Destination Port,0.6162145733833313
+Normal,3,Fwd Packet Length Mean,0.44698432087898254
+Normal,4,PSH Flag Count,0.415722131729126
+Normal,5,Total Length of Fwd Packets,0.2534595727920532
+Normal,6,Fwd Packet Length Max,0.22717006504535675
+Normal,7,Init_Win_bytes_backward,0.19981469213962555
+Normal,8,ACK Flag Count,0.1534360945224762
+Normal,9,Fwd IAT Min,0.15136706829071045
+Normal,10,Flow IAT Min,0.14299041032791138
+Port Scan,1,Total Length of Fwd Packets,1.1431416273117065
+Port Scan,2,Flow Duration,1.1065754890441895
+Port Scan,3,PSH Flag Count,1.1018195152282715
+Port Scan,4,Flow Bytes/s,0.5401196479797363
+Port Scan,5,Packet Length Mean,0.40074622631073
+Port Scan,6,Subflow Fwd Bytes,0.26452773809432983
+Port Scan,7,ACK Flag Count,0.26019975543022156
+Port Scan,8,Fwd Packet Length Mean,0.2085035741329193
+Port Scan,9,Bwd Header Length,0.1762256622314453
+Port Scan,10,Bwd Packets/s,0.17020362615585327
+Web Attack,1,Destination Port,0.9874388575553894
+Web Attack,2,Flow Bytes/s,0.7478463649749756
+Web Attack,3,min_seg_size_forward,0.5947986245155334
+Web Attack,4,Init_Win_bytes_backward,0.576158344745636
+Web Attack,5,Init_Win_bytes_forward,0.32359057664871216
+Web Attack,6,Flow IAT Min,0.24874666333198547
+Web Attack,7,Fwd IAT Min,0.21686875820159912
+Web Attack,8,Fwd Packet Length Std,0.1885785311460495
+Web Attack,9,Max Packet Length,0.1841534674167633
+Web Attack,10,Flow Packets/s,0.17254534363746643
